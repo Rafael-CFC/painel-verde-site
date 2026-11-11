@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Ilustração de pessoas da comunidade entregando materiais recicláveis">
+  <rect width="480" height="320" rx="24" fill="#ecfdf5"/>
+  <path d="M0 230 C120 200 240 214 360 232 C420 240 460 236 480 232 L480 296 Q480 320 456 320 L24 320 Q0 320 0 296 Z" fill="#bbf7d0"/>
+  <!-- ponto de coleta -->
+  <rect x="300" y="120" width="140" height="120" rx="12" fill="#ffffff" stroke="#15803d" stroke-width="4"/>
+  <rect x="300" y="104" width="140" height="28" rx="10" fill="#15803d"/>
+  <text x="370" y="123" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff">ECOPONTO</text>
+  <rect x="318" y="150" width="30" height="70" rx="6" fill="#2563eb"/>
+  <rect x="356" y="150" width="30" height="70" rx="6" fill="#16a34a"/>
+  <rect x="394" y="150" width="30" height="70" rx="6" fill="#ea580c"/>
+  <!-- pessoa 1 -->
+  <circle cx="110" cy="120" r="22" fill="#a16207"/>
+  <rect x="88" y="146" width="44" height="74" rx="18" fill="#0ea5e9"/>
+  <rect x="92" y="216" width="14" height="44" rx="6" fill="#1e293b"/>
+  <rect x="114" y="216" width="14" height="44" rx="6" fill="#1e293b"/>
+  <rect x="132" y="168" width="54" height="40" rx="6" fill="#d97706"/>
+  <path d="M140 176 L178 176 M140 186 L170 186" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  <!-- pessoa 2 -->
+  <circle cx="226" cy="132" r="20" fill="#f1c27d"/>
+  <rect x="206" y="156" width="40" height="66" rx="16" fill="#16a34a"/>
+  <rect x="210" y="218" width="13" height="42" rx="6" fill="#1e293b"/>
+  <rect x="229" y="218" width="13" height="42" rx="6" fill="#1e293b"/>
+  <path d="M252 176 L270 176 L274 214 L248 214 Z" fill="#7dd3fc" stroke="#0284c7" stroke-width="3"/>
+  <rect x="254" y="168" width="14" height="10" rx="3" fill="#0284c7"/>
+  <!-- folhas -->
+  <path d="M40 250 C40 226 60 214 72 216 C72 236 60 250 40 250 Z" fill="#15803d"/>
+  <path d="M452 64 C452 44 468 34 476 36 C476 52 466 64 452 64 Z" fill="#22c55e"/>
+</svg>

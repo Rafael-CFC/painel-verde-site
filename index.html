@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel Verde Garopaba — Coleta Seletiva & Ecopontos</title>
+  <meta name="description" content="Encontre ecopontos e locais de coleta seletiva em Garopaba. Projeto da SNCT 2026 no IFSC Câmpus Garopaba.">
+  <link rel="icon" href="img/logo.svg">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="container">
+      <a class="marca" href="index.html">
+        <img src="img/logo.svg" alt="">
+        <span>Painel Verde<small>Garopaba Sustentável</small></span>
+      </a>
+      <button class="btn-menu" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav aria-label="Principal">
+        <ul class="menu" id="menu">
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="index.html#ecopontos">Ecopontos</a></li>
+          <li><a href="separar.html">Como separar</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div>
+          <span class="selo">SNCT 2026 · IFSC Câmpus Garopaba</span>
+          <h1>Onde descartar em <span>Garopaba?</span></h1>
+          <p>Encontre o ecoponto mais perto de você para entregar recicláveis, vidro, eletrônicos e óleo de cozinha. Separar o lixo protege nossas praias e lagoas.</p>
+          <div class="hero-acoes">
+            <a class="btn btn-primario" href="#ecopontos">Encontrar ecoponto</a>
+            <a class="btn btn-secundario" href="separar.html">Como separar o lixo</a>
+          </div>
+        </div>
+        <div class="hero-imagem">
+          <img src="img/hero.svg" alt="Ilustração de lixeiras coloridas de coleta seletiva perto do mar">
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="titulo-passos">
+      <div class="container">
+        <div class="secao-titulo">
+          <h2 id="titulo-passos">Descartar certo em 3 passos</h2>
+          <p>Leva menos de um minuto e faz diferença para a cidade inteira.</p>
+        </div>
+        <div class="passos">
+          <article class="passo">
+            <div class="passo-numero">1</div>
+            <h3>Separe</h3>
+            <p>Divida o material por tipo: recicláveis, vidro, eletrônicos e óleo.</p>
+          </article>
+          <article class="passo">
+            <div class="passo-numero">2</div>
+            <h3>Encontre</h3>
+            <p>Use o filtro abaixo para ver os pontos de coleta de cada material.</p>
+          </article>
+          <article class="passo">
+            <div class="passo-numero">3</div>
+            <h3>Entregue</h3>
+            <p>Confira o horário e abra a localização direto no Google Maps.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-branca" id="ecopontos" aria-labelledby="titulo-ecopontos">
+      <div class="container">
+        <div class="secao-titulo">
+          <h2 id="titulo-ecopontos">Ecopontos e locais de coleta</h2>
+          <p>Selecione o tipo de resíduo para filtrar os pontos.</p>
+        </div>
+
+        <div class="barra-filtros" role="group" aria-label="Filtro por tipo de resíduo">
+          <button class="btn-filtro" data-filtro="Todos"><span class="ponto"></span>Todos</button>
+          <button class="btn-filtro" data-filtro="Reciclaveis" style="--cor: var(--cat-reciclaveis)"><span class="ponto"></span>Recicláveis</button>
+          <button class="btn-filtro" data-filtro="Vidro" style="--cor: var(--cat-vidro)"><span class="ponto"></span>Vidro</button>
+          <button class="btn-filtro" data-filtro="Eletronicos" style="--cor: var(--cat-eletronicos)"><span class="ponto"></span>Eletrônicos</button>
+          <button class="btn-filtro" data-filtro="Oleo" style="--cor: var(--cat-oleo)"><span class="ponto"></span>Óleo de cozinha</button>
+        </div>
+
+        <div id="gradeEcopontos" class="grade-ecopontos" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <div class="faixa">
+          <div>
+            <h2>Não sabe em qual lixeira vai?</h2>
+            <p>Veja o guia de cores da coleta seletiva e o que pode ou não ser reciclado.</p>
+          </div>
+          <a class="btn" href="separar.html">Ver guia de separação →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p><strong>Painel Verde Garopaba</strong> · Oficina da SNCT 2026</p>
+      <p>IFSC Câmpus Garopaba · Programação para a Internet 2</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
